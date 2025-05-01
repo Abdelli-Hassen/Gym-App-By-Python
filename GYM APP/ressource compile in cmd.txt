@@ -1,0 +1,5 @@
+pyrcc5 ressource.qrc -o resources.py
+
+or : if not found
+
+python -m PyQt5.pyrcc_main ressource.qrc -o resources.py
